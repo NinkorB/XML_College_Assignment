@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Registration Form</title>
+</head>
+<body bgcolor="#f2f2f2" text="black">
+    <h1 align="center" style="color: darkblue;">Employee Registration Page</h1>
+    <p align="center">Please fill in the details below to register as an employee.</p>
+
+    <h2 align="center">Employee Registration Details</h2>
+    <form>
+        <fieldset>
+            <legend><b>Personal Info</b></legend>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            Gender:<br>
+            <input type="radio" id="gender1" name="gender" value="Male">
+            <label for="gender1">Male</label><br>
+
+            <input type="radio" id="gender2" name="gender" value="Female">
+            <label for="gender2">Female</label><br>
+
+            <input type="radio" id="gender3" name="gender" value="Others">
+            <label for="gender3">Others</label><br><br>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend><b>Address</b></legend>
+            <label for="add1">Address Line 1:</label>
+            <input type="text" id="add1" name="add1"><br><br>
+
+            <label for="add2">Address Line 2:</label>
+            <input type="text" id="add2" name="add2"><br><br>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city"><br><br>
+
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state"><br><br>
+
+            <label for="nationality">Nationality:</label>
+            <input type="text" id="nationality" name="nationality"><br><br>
+
+            <label for="pin">Pin Code:</label>
+            <input type="text" id="pin" name="pin"><br><br>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend><b>Employee Details</b></legend>
+            <label for="dep">Department:</label>
+            <input type="text" id="dep" name="dep"><br><br>
+
+            <label for="pos">Position:</label>
+            <input type="text" id="pos" name="pos"><br><br>
+
+            <label for="date10">Joining Date:</label>
+            <input type="date" id="date10" name="date"><br><br>
+
+            <label for="id">Employee ID:</label>
+            <input type="text" id="id" name="id"><br><br>
+
+            <label for="salary">Expected Salary:</label>
+            <input type="number" id="salary" name="salary" placeholder="Enter in USD"><br><br>
+
+            <label for="skills">Skills:</label>
+            <textarea id="skills" name="skills" rows="4" cols="40" placeholder="List your skills here"></textarea><br><br>
+        </fieldset>
+        <br>
+
+        <input type="submit" value="Submit" style="background-color: green; color: white; padding: 10px 20px;">
+        <input type="reset" value="Reset" style="background-color: red; color: white; padding: 10px 20px;">
+    </form>
+    <br><br>
+    <p align="center"><a href="quest7.html">HOME</a></p>
+</body>
+</html>
